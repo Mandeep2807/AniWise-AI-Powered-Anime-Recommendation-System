@@ -8,7 +8,7 @@ from scipy.sparse import load_npz
 # Load Dataset
 # =====================================================
 
-# df = pd.read_csv("anime.csv")
+
 BASE_DIR = Path(__file__).resolve().parent
 
 df = pd.read_csv(BASE_DIR / "anime.csv")
@@ -33,8 +33,7 @@ for col in list_columns:
 # Load Saved Model
 # =====================================================
 
-# knn_model = joblib.load("knn_model.pkl")
-# final_matrix = load_npz("final_matrix.npz")
+
 knn_model = joblib.load(BASE_DIR / "knn_model.pkl")
 final_matrix = load_npz(BASE_DIR / "final_matrix.npz")
 
