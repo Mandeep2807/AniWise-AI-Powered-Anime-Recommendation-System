@@ -139,44 +139,7 @@ Tools
 - Git
 - GitHub
 
----
 
-# 📁 Project Structure
-
-```
-AniWise-AI-Powered-Anime-Recommendation-System/
-
-│
-
-├── data/
-│   └── anime.csv
-
-├── notebooks/
-│   ├── 01_Data_Understanding.ipynb
-│   ├── 02_Data_Cleaning.ipynb
-│   ├── 03_EDA.ipynb
-│   ├── 04_Feature_Engineering.ipynb
-│   └── 05_Recommendation_System.ipynb
-
-├── streamlit_app/
-│   ├── app.py
-│   ├── recommender.py
-│   ├── knn_model.pkl
-│   ├── final_matrix.npz
-│   └── requirements.txt
-
-├── dashboard/
-│   └── AniWise_Dashboard.pbix
-
-├── screenshots/
-
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-```
-
----
 
 # ▶️ How to Run
 
