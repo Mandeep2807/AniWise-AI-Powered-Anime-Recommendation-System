@@ -1,3 +1,6 @@
+🌐 Live Demo
+Streamlit Dashboard: https://aniwise-ai-powered-anime-recommendation-system-lrpc5mtmxkwsiho.streamlit.app/
+
 # 🎌 AniWise – AI-Powered Anime Recommendation & Analytics System
 
 AniWise is a content-based anime recommendation system developed as a Data Science project. The aim of this project is to help users discover anime that are similar to their favourite titles by analysing anime metadata such as genres, themes, demographics and studios.
